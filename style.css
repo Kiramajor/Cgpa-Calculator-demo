@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(229, 23, 23),blue);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    margin: 10px;
+    color:white;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(213, 31, 31);
+    border-radius: 10px;
+    border: 1px hidden red;
+    color:rgb(72, 20, 120);
+    font-size: 20px;
+    transition: background-color 1s ease-in;
+}
+.btn:hover{
+    background-color: rgb(85, 74, 74);
+    color:white;
+}
